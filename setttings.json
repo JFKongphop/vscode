@@ -1,0 +1,58 @@
+{
+  "code-runner.runInTerminal": true,
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.accessibilitySupport": "off",
+  "debug.onTaskErrors": "abort",
+  "[cpp]": {
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true
+  },
+  "cmake.configureOnOpen": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.colorTheme": "Default Dark+",
+  "vs-code-prettier-eslint.prettierLast": true,
+  "redhat.telemetry.enabled": true,
+  "explorer.compactFolders": false,
+  "editor.wordWrap": "wordWrapColumn",
+  "go.toolsManagement.autoUpdate": true,
+  "mssql.objectExplorer.groupBySchema": true,
+  "go.coverOnSave": true,
+  "go.coverOnSingleTest": true,
+  "go.coverageDecorator": {
+    "type": "gutter",
+    "coveredHighlightColor": "rgba(64,128,128,0.5)",
+    "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+    "coveredBorderColor": "rgba(64,128,128,0.5)",
+    "uncoveredBorderColor": "rgba(128,64,64,0.25)",
+    "coveredGutterStyle": "blockgreen",
+    "uncoveredGutterStyle": "blockred"
+  },
+  "gopls": {
+    "build.buildFlags": ["-tags=integration"]
+  },
+  "editor.multiCursorLimit": 100000,
+  "editor.wordWrapColumn": 100,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+  "workbench.editorAssociations": {
+    "*.xlsx": "default"
+  },
+  "terminal.integrated.tabs.enabled": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "editor.minimap.enabled": false,
+  "terminal.integrated.commandsToSkipShell": [
+    "matlab.interrupt"
+  ]
+}
